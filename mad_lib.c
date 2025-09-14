@@ -8,10 +8,10 @@ int main() {
   char celebrityLastName[20];
 
   printf("Enter a color: ");
-  scanf("%s", color);
+  scanf("%19s", color);
 
   printf("Plural noun: ");
-  scanf("%s", pluralNoun);
+  scanf("%19s", pluralNoun);
 
   printf("Celebrity: ");
   scanf("%s%s", celebrityFirstName, celebrityLastName);
